@@ -2,7 +2,7 @@ function Home() {
     return (
       <main>
         {/* Hero Section */}
-        <section className="hero">
+        <section id="home" className="hero">
           <h1>Hi, I’m Alexis Padilla</h1>
           <p>Aspiring creative web developer</p>
         </section>

@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="app">
       <nav className="navbar">
-        <Link to="/" className="nav-logo">MyPortfolio</Link>
+        <Link to="/#home" className="nav-logo">MyPortfolio</Link>
         <div className="nav-links">
-          <a href="/my-portfolio/#about">About</a>
-          <a href="/my-portfolio/#projects">Projects</a>
-          <a href="/my-portfolio/#contact">Contact</a>
+          <a href="/#about">About</a>
+          <a href="/#projects">Projects</a>
+          <a href="/#contact">Contact</a>
           <Link to="/blog">Blog</Link>
         </div>
       </nav>
